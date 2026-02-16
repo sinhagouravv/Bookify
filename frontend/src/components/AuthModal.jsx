@@ -135,7 +135,7 @@ const AuthModal = ({ isOpen, onClose, defaultTab = 'login', onLogin }) => {
                 </div>
 
                 <div className="bg-gray-50 p-4 text-center text-sm font-medium text-gray-500 border-t border-gray-100">
-                    By continuing, you agree to our <a href="#" className="text-gray-900 hover:underline">Terms</a> and <a href="#" className="text-gray-900 hover:underline">Privacy Policy</a>.
+                    By continuing, you agree to our <a href="#" className="text-gray-900 hover:underline">Terms</a> and <a href="#" className="text-gray-900 hover:underline">Privacy Policy.</a>.
                 </div>
             </div>
         </div>
