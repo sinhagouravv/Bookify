@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --color-primary: #4f46e5;
+    --color-secondary: #ec4899;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f8fafc;
+}
+
+@layer utilities {
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari and Opera */
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes flightPath {
+    0% {
+        top: var(--start-top);
+        left: var(--start-left);
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+
+    30% {
+        top: 10vh;
+        left: 80vw;
+        transform: scale(3) rotate(45deg);
+    }
+
+    60% {
+        transform: scale(3) rotate(-135deg);
+        /* Counter-clockwise (Left) turn towards center */
+    }
+
+    100% {
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%) scale(0) rotate(-135deg);
+        /* Land and vanish */
+        opacity: 0;
+    }
+}
+
+.flying-paper-plane {
+    position: fixed;
+    z-index: 100;
+    animation: flightPath 2s forwards ease-in-out;
+    color: #4F46E5;
+    /* Indigo 600 */
+}
+
+/* Remove autofill background color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: #374151 !important;
+    /* text-gray-700 */
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Marquee Animations */
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee-reverse {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 100s linear infinite;
+}
+
+.animate-marquee-reverse {
+    animation: marquee-reverse 100s linear infinite;
+}
+
+.pause-on-hover:hover {
+    animation-play-state: paused;
+}

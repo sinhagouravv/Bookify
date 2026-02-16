@@ -1,0 +1,663 @@
+[2026-02-07T09:35:20.662Z] ERROR: GOOGLE_BOOK_SECRET is not set or empty.
+[2026-02-07T09:35:20.662Z] Starting book synchronization (Debug)...
+[2026-02-07T09:35:57.823Z] Starting book synchronization (Debug)...
+[2026-02-07T09:35:57.823Z] ERROR: GOOGLE_BOOK_SECRET is not set or empty.
+[2026-02-07T09:36:53.329Z] Starting book synchronization (Debug)...
+[2026-02-07T09:36:53.329Z] ERROR: GOOGLE_BOOK_SECRET is not set or empty.
+[2026-02-07T09:37:39.276Z] DEBUG: .env exists: true
+[2026-02-07T09:37:39.275Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-07T09:37:39.276Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-07T09:37:39.276Z] DEBUG: GOOGLE_BOOK_SECRET value: UNSET
+[2026-02-07T09:37:39.276Z] Starting book synchronization (Debug)...
+[2026-02-07T09:37:39.276Z] ERROR: GOOGLE_BOOK_SECRET is not set or empty.
+[2026-02-07T09:38:03.929Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-07T09:38:03.930Z] DEBUG: .env exists: true
+[2026-02-07T09:38:03.930Z] Starting book synchronization (Debug)...
+[2026-02-07T09:38:03.930Z] ERROR: GOOGLE_BOOK_SECRET is not set or empty.
+[2026-02-07T09:38:03.930Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-07T09:38:03.930Z] DEBUG: GOOGLE_BOOK_SECRET value: UNSET
+[2026-02-07T09:38:34.011Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-07T09:38:34.011Z] DEBUG: .env exists: true
+[2026-02-07T09:38:34.011Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-07T09:38:34.011Z] DEBUG: GOOGLE_BOOK_SECRET value: SET
+[2026-02-07T09:38:34.011Z] Starting book synchronization (Debug)...
+[2026-02-07T09:38:34.347Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"httpReferrer":"<empty>","service":"books.googleapis.com","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:34.347Z] Failed to fetch subject:fantasy: Request failed with status code 403
+[2026-02-07T09:38:34.348Z] Failed to fetch subject:science fiction: Request failed with status code 403
+[2026-02-07T09:38:34.348Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","httpReferrer":"<empty>","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:35.135Z] Failed to fetch subject:mystery: Request failed with status code 403
+[2026-02-07T09:38:35.135Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"httpReferrer":"<empty>","consumer":"projects/556918382706","service":"books.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:35.135Z] Synced batch 1/12
+[2026-02-07T09:38:36.510Z] Failed to fetch subject:horror: Request failed with status code 403
+[2026-02-07T09:38:36.510Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"consumer":"projects/556918382706","httpReferrer":"<empty>","service":"books.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:36.510Z] Failed to fetch subject:thriller: Request failed with status code 403
+[2026-02-07T09:38:36.510Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"consumer":"projects/556918382706","service":"books.googleapis.com","httpReferrer":"<empty>"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:37.338Z] Failed to fetch subject:romance: Request failed with status code 403
+[2026-02-07T09:38:37.338Z] Synced batch 2/12
+[2026-02-07T09:38:37.338Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"httpReferrer":"<empty>","service":"books.googleapis.com","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:38.594Z] Failed to fetch subject:memoir: Request failed with status code 403
+[2026-02-07T09:38:38.594Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","consumer":"projects/556918382706","httpReferrer":"<empty>"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:38.598Z] Failed to fetch subject:historical fiction: Request failed with status code 403
+[2026-02-07T09:38:38.598Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","httpReferrer":"<empty>","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:38.600Z] Failed to fetch subject:biography: Request failed with status code 403
+[2026-02-07T09:38:38.600Z] Synced batch 3/12
+[2026-02-07T09:38:38.600Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","consumer":"projects/556918382706","httpReferrer":"<empty>"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:39.858Z] Failed to fetch subject:philosophy: Request failed with status code 403
+[2026-02-07T09:38:39.858Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","consumer":"projects/556918382706","httpReferrer":"<empty>"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:39.859Z] Failed to fetch subject:self-help: Request failed with status code 403
+[2026-02-07T09:38:39.859Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"consumer":"projects/556918382706","httpReferrer":"<empty>","service":"books.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:40.647Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"httpReferrer":"<empty>","consumer":"projects/556918382706","service":"books.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:40.647Z] Failed to fetch subject:history: Request failed with status code 403
+[2026-02-07T09:38:40.648Z] Synced batch 4/12
+[2026-02-07T09:38:41.911Z] Failed to fetch subject:engineering: Request failed with status code 403
+[2026-02-07T09:38:41.911Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","httpReferrer":"<empty>","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:41.911Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"consumer":"projects/556918382706","httpReferrer":"<empty>","service":"books.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:41.911Z] Failed to fetch subject:economics: Request failed with status code 403
+[2026-02-07T09:38:41.912Z] Failed to fetch subject:business: Request failed with status code 403
+[2026-02-07T09:38:41.912Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","consumer":"projects/556918382706","httpReferrer":"<empty>"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:41.912Z] Synced batch 5/12
+[2026-02-07T09:38:43.167Z] Failed to fetch subject:management: Request failed with status code 403
+[2026-02-07T09:38:43.167Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","httpReferrer":"<empty>","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:43.167Z] Failed to fetch subject:law: Request failed with status code 403
+[2026-02-07T09:38:43.167Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"consumer":"projects/556918382706","service":"books.googleapis.com","httpReferrer":"<empty>"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:43.951Z] Failed to fetch subject:medical: Request failed with status code 403
+[2026-02-07T09:38:43.951Z] Error details: {"error":{"code":403,"message":"Requests from referer <empty> are blocked.","errors":[{"message":"Requests from referer <empty> are blocked.","domain":"global","reason":"forbidden"}],"status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_HTTP_REFERRER_BLOCKED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","consumer":"projects/556918382706","httpReferrer":"<empty>"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Requests from referer <empty> are blocked."}]}}
+[2026-02-07T09:38:43.951Z] Synced batch 6/12
+[2026-02-07T09:38:59.004Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-07T09:38:59.005Z] DEBUG: .env exists: true
+[2026-02-07T09:38:59.005Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-07T09:38:59.005Z] Starting book synchronization (Debug)...
+[2026-02-07T09:38:59.005Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-07T09:38:59.387Z] Failed to fetch subject:science fiction: Request failed with status code 429
+[2026-02-07T09:38:59.387Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_unit":"1/d/{project}","quota_limit":"defaultPerDayPerProject","quota_location":"global","consumer":"projects/556918382706","service":"books.googleapis.com","quota_limit_value":"1000","quota_metric":"books.googleapis.com/default"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:38:59.388Z] Failed to fetch subject:fantasy: Request failed with status code 429
+[2026-02-07T09:38:59.388Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"consumer":"projects/556918382706","quota_location":"global","quota_limit_value":"1000","service":"books.googleapis.com","quota_metric":"books.googleapis.com/default","quota_unit":"1/d/{project}","quota_limit":"defaultPerDayPerProject"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:00.100Z] Failed to fetch subject:mystery: Request failed with status code 429
+[2026-02-07T09:39:00.100Z] Synced batch 1/12
+[2026-02-07T09:39:00.100Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_metric":"books.googleapis.com/default","quota_unit":"1/d/{project}","quota_location":"global","quota_limit_value":"1000","quota_limit":"defaultPerDayPerProject","service":"books.googleapis.com","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:01.357Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit_value":"1000","quota_location":"global","quota_unit":"1/d/{project}","consumer":"projects/556918382706","quota_metric":"books.googleapis.com/default","quota_limit":"defaultPerDayPerProject","service":"books.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:01.357Z] Failed to fetch subject:horror: Request failed with status code 429
+[2026-02-07T09:39:01.363Z] Failed to fetch subject:thriller: Request failed with status code 429
+[2026-02-07T09:39:01.363Z] Failed to fetch subject:romance: Request failed with status code 429
+[2026-02-07T09:39:01.363Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit_value":"1000","consumer":"projects/556918382706","quota_metric":"books.googleapis.com/default","service":"books.googleapis.com","quota_limit":"defaultPerDayPerProject","quota_unit":"1/d/{project}","quota_location":"global"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:01.363Z] Synced batch 2/12
+[2026-02-07T09:39:01.363Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_metric":"books.googleapis.com/default","quota_limit_value":"1000","quota_unit":"1/d/{project}","quota_location":"global","service":"books.googleapis.com","consumer":"projects/556918382706","quota_limit":"defaultPerDayPerProject"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:02.620Z] Failed to fetch subject:biography: Request failed with status code 429
+[2026-02-07T09:39:02.620Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_location":"global","service":"books.googleapis.com","consumer":"projects/556918382706","quota_metric":"books.googleapis.com/default","quota_limit":"defaultPerDayPerProject","quota_limit_value":"1000","quota_unit":"1/d/{project}"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:02.635Z] Failed to fetch subject:historical fiction: Request failed with status code 429
+[2026-02-07T09:39:02.635Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit_value":"1000","consumer":"projects/556918382706","quota_metric":"books.googleapis.com/default","service":"books.googleapis.com","quota_limit":"defaultPerDayPerProject","quota_unit":"1/d/{project}","quota_location":"global"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:02.673Z] Failed to fetch subject:memoir: Request failed with status code 429
+[2026-02-07T09:39:02.673Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_metric":"books.googleapis.com/default","quota_limit_value":"1000","service":"books.googleapis.com","consumer":"projects/556918382706","quota_unit":"1/d/{project}","quota_location":"global","quota_limit":"defaultPerDayPerProject"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:02.673Z] Synced batch 3/12
+[2026-02-07T09:39:03.930Z] Failed to fetch subject:history: Request failed with status code 429
+[2026-02-07T09:39:03.930Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit":"defaultPerDayPerProject","consumer":"projects/556918382706","quota_limit_value":"1000","service":"books.googleapis.com","quota_location":"global","quota_metric":"books.googleapis.com/default","quota_unit":"1/d/{project}"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:03.931Z] Failed to fetch subject:philosophy: Request failed with status code 429
+[2026-02-07T09:39:03.931Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_metric":"books.googleapis.com/default","quota_location":"global","quota_limit":"defaultPerDayPerProject","quota_limit_value":"1000","service":"books.googleapis.com","consumer":"projects/556918382706","quota_unit":"1/d/{project}"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:04.726Z] Failed to fetch subject:self-help: Request failed with status code 429
+[2026-02-07T09:39:04.726Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit_value":"1000","quota_location":"global","quota_metric":"books.googleapis.com/default","quota_limit":"defaultPerDayPerProject","service":"books.googleapis.com","quota_unit":"1/d/{project}","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:04.727Z] Synced batch 4/12
+[2026-02-07T09:39:05.989Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit_value":"1000","consumer":"projects/556918382706","quota_location":"global","quota_metric":"books.googleapis.com/default","quota_limit":"defaultPerDayPerProject","service":"books.googleapis.com","quota_unit":"1/d/{project}"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:05.988Z] Failed to fetch subject:business: Request failed with status code 429
+[2026-02-07T09:39:05.989Z] Failed to fetch subject:engineering: Request failed with status code 429
+[2026-02-07T09:39:05.990Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit_value":"1000","service":"books.googleapis.com","quota_metric":"books.googleapis.com/default","quota_limit":"defaultPerDayPerProject","consumer":"projects/556918382706","quota_unit":"1/d/{project}","quota_location":"global"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:06.904Z] Failed to fetch subject:economics: Request failed with status code 429
+[2026-02-07T09:39:06.905Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_unit":"1/d/{project}","quota_location":"global","quota_limit":"defaultPerDayPerProject","service":"books.googleapis.com","quota_metric":"books.googleapis.com/default","consumer":"projects/556918382706","quota_limit_value":"1000"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:06.906Z] Synced batch 5/12
+[2026-02-07T09:39:08.161Z] Failed to fetch subject:law: Request failed with status code 429
+[2026-02-07T09:39:08.161Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit_value":"1000","service":"books.googleapis.com","quota_unit":"1/d/{project}","quota_metric":"books.googleapis.com/default","quota_location":"global","quota_limit":"defaultPerDayPerProject","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:08.953Z] Failed to fetch subject:medical: Request failed with status code 429
+[2026-02-07T09:39:08.953Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_metric":"books.googleapis.com/default","quota_location":"global","consumer":"projects/556918382706","service":"books.googleapis.com","quota_limit":"defaultPerDayPerProject","quota_unit":"1/d/{project}","quota_limit_value":"1000"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:08.958Z] Failed to fetch subject:management: Request failed with status code 429
+[2026-02-07T09:39:08.958Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_unit":"1/d/{project}","quota_location":"global","consumer":"projects/556918382706","service":"books.googleapis.com","quota_metric":"books.googleapis.com/default","quota_limit_value":"1000","quota_limit":"defaultPerDayPerProject"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:08.959Z] Synced batch 6/12
+[2026-02-07T09:39:10.225Z] Failed to fetch subject:mathematics: Request failed with status code 429
+[2026-02-07T09:39:10.225Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_metric":"books.googleapis.com/default","quota_limit_value":"1000","quota_unit":"1/d/{project}","quota_location":"global","service":"books.googleapis.com","consumer":"projects/556918382706","quota_limit":"defaultPerDayPerProject"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:10.227Z] Failed to fetch subject:programming: Request failed with status code 429
+[2026-02-07T09:39:10.227Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit_value":"1000","quota_limit":"defaultPerDayPerProject","quota_location":"global","quota_metric":"books.googleapis.com/default","quota_unit":"1/d/{project}","service":"books.googleapis.com","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:10.228Z] Failed to fetch subject:computer science: Request failed with status code 429
+[2026-02-07T09:39:10.228Z] Synced batch 7/12
+[2026-02-07T09:39:10.228Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_unit":"1/d/{project}","consumer":"projects/556918382706","quota_location":"global","quota_limit_value":"1000","service":"books.googleapis.com","quota_limit":"defaultPerDayPerProject","quota_metric":"books.googleapis.com/default"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:11.489Z] Failed to fetch subject:artificial intelligence: Request failed with status code 429
+[2026-02-07T09:39:11.490Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"consumer":"projects/556918382706","quota_unit":"1/d/{project}","quota_limit_value":"1000","service":"books.googleapis.com","quota_limit":"defaultPerDayPerProject","quota_location":"global","quota_metric":"books.googleapis.com/default"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:12.282Z] Failed to fetch subject:web development: Request failed with status code 429
+[2026-02-07T09:39:12.282Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_location":"global","service":"books.googleapis.com","quota_limit":"defaultPerDayPerProject","quota_limit_value":"1000","quota_unit":"1/d/{project}","quota_metric":"books.googleapis.com/default","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:12.293Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit":"defaultPerDayPerProject","quota_location":"global","quota_limit_value":"1000","quota_unit":"1/d/{project}","consumer":"projects/556918382706","service":"books.googleapis.com","quota_metric":"books.googleapis.com/default"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:12.293Z] Synced batch 8/12
+[2026-02-07T09:39:12.293Z] Failed to fetch subject:data science: Request failed with status code 429
+[2026-02-07T09:39:13.552Z] Failed to fetch subject:picture books: Request failed with status code 429
+[2026-02-07T09:39:13.552Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"service":"books.googleapis.com","quota_metric":"books.googleapis.com/default","quota_location":"global","quota_limit_value":"1000","quota_unit":"1/d/{project}","consumer":"projects/556918382706","quota_limit":"defaultPerDayPerProject"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:14.326Z] Failed to fetch subject:story books: Request failed with status code 429
+[2026-02-07T09:39:14.326Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_location":"global","service":"books.googleapis.com","quota_limit":"defaultPerDayPerProject","quota_limit_value":"1000","quota_unit":"1/d/{project}","quota_metric":"books.googleapis.com/default","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:14.343Z] Failed to fetch subject:cyber security: Request failed with status code 429
+[2026-02-07T09:39:14.343Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_location":"global","service":"books.googleapis.com","quota_metric":"books.googleapis.com/default","quota_unit":"1/d/{project}","consumer":"projects/556918382706","quota_limit":"defaultPerDayPerProject","quota_limit_value":"1000"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:14.343Z] Synced batch 9/12
+[2026-02-07T09:39:15.597Z] Failed to fetch subject:graphic novels: Request failed with status code 429
+[2026-02-07T09:39:15.598Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit_value":"1000","quota_location":"global","quota_unit":"1/d/{project}","quota_metric":"books.googleapis.com/default","quota_limit":"defaultPerDayPerProject","consumer":"projects/556918382706","service":"books.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:15.600Z] Failed to fetch subject:young adult fiction: Request failed with status code 429
+[2026-02-07T09:39:15.600Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"consumer":"projects/556918382706","quota_metric":"books.googleapis.com/default","quota_unit":"1/d/{project}","quota_limit_value":"1000","service":"books.googleapis.com","quota_location":"global","quota_limit":"defaultPerDayPerProject"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:16.395Z] Failed to fetch subject:comics: Request failed with status code 429
+[2026-02-07T09:39:16.395Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_limit":"defaultPerDayPerProject","quota_unit":"1/d/{project}","quota_location":"global","consumer":"projects/556918382706","quota_limit_value":"1000","quota_metric":"books.googleapis.com/default","service":"books.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:16.395Z] Synced batch 10/12
+[2026-02-07T09:39:17.652Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_unit":"1/d/{project}","quota_limit_value":"1000","quota_location":"global","consumer":"projects/556918382706","quota_limit":"defaultPerDayPerProject","service":"books.googleapis.com","quota_metric":"books.googleapis.com/default"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:17.652Z] Failed to fetch subject:english literature: Request failed with status code 429
+[2026-02-07T09:39:17.665Z] Failed to fetch subject:hindi literature: Request failed with status code 429
+[2026-02-07T09:39:17.665Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_location":"global","quota_metric":"books.googleapis.com/default","quota_limit":"defaultPerDayPerProject","quota_limit_value":"1000","quota_unit":"1/d/{project}","service":"books.googleapis.com","consumer":"projects/556918382706"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:17.666Z] Failed to fetch subject:regional languages: Request failed with status code 429
+[2026-02-07T09:39:17.668Z] Synced batch 11/12
+[2026-02-07T09:39:17.668Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_unit":"1/d/{project}","service":"books.googleapis.com","quota_metric":"books.googleapis.com/default","quota_limit":"defaultPerDayPerProject","quota_location":"global","consumer":"projects/556918382706","quota_limit_value":"1000"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:18.924Z] Failed to fetch subject:poetry: Request failed with status code 429
+[2026-02-07T09:39:18.924Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_unit":"1/d/{project}","quota_metric":"books.googleapis.com/default","quota_limit":"defaultPerDayPerProject","quota_location":"global","quota_limit_value":"1000","consumer":"projects/556918382706","service":"books.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:19.701Z] Failed to fetch subject:drama: Request failed with status code 429
+[2026-02-07T09:39:19.702Z] Synced batch 12/12
+[2026-02-07T09:39:19.701Z] Error details: {"error":{"code":429,"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","errors":[{"message":"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:556918382706'.","domain":"global","reason":"rateLimitExceeded"}],"status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"quota_unit":"1/d/{project}","service":"books.googleapis.com","quota_limit":"defaultPerDayPerProject","quota_location":"global","consumer":"projects/556918382706","quota_limit_value":"1000","quota_metric":"books.googleapis.com/default"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[2026-02-07T09:39:19.702Z] Book synchronization complete. Processed 0 books.
+[2026-02-10T13:43:48.767Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-10T13:43:48.767Z] DEBUG: .env exists: true
+[2026-02-10T13:43:48.768Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-10T13:43:48.768Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-10T13:43:48.768Z] Starting book synchronization (Debug)...
+[2026-02-10T13:43:49.412Z] Successfully fetched subject:fantasy: 1000000 items found.
+[2026-02-10T13:43:49.452Z] Successfully fetched subject:mystery: 1000000 items found.
+[2026-02-10T13:43:50.436Z] Successfully fetched subject:science fiction: 1000000 items found.
+[2026-02-10T13:43:51.850Z] Synced batch 1/12
+[2026-02-10T13:43:53.363Z] Successfully fetched subject:romance: 1000000 items found.
+[2026-02-10T13:43:53.434Z] Successfully fetched subject:horror: 1000000 items found.
+[2026-02-10T13:43:53.440Z] Successfully fetched subject:thriller: 1000000 items found.
+[2026-02-10T13:43:54.774Z] Synced batch 2/12
+[2026-02-10T13:43:56.395Z] Successfully fetched subject:memoir: 1000000 items found.
+[2026-02-10T13:43:57.113Z] Successfully fetched subject:biography: 1000000 items found.
+[2026-02-10T13:43:57.230Z] Successfully fetched subject:historical fiction: 1000000 items found.
+[2026-02-10T13:43:58.550Z] Synced batch 3/12
+[2026-02-10T13:44:00.100Z] Successfully fetched subject:philosophy: 1000000 items found.
+[2026-02-10T13:44:00.169Z] Successfully fetched subject:self-help: 1000000 items found.
+[2026-02-10T13:44:00.935Z] Successfully fetched subject:history: 1000000 items found.
+[2026-02-10T13:44:02.232Z] Synced batch 4/12
+[2026-02-10T13:44:03.776Z] Successfully fetched subject:business: 1000000 items found.
+[2026-02-10T13:44:03.788Z] Successfully fetched subject:economics: 1000000 items found.
+[2026-02-10T13:44:04.578Z] Successfully fetched subject:engineering: 1000000 items found.
+[2026-02-10T13:44:05.878Z] Synced batch 5/12
+[2026-02-10T13:44:07.422Z] Successfully fetched subject:law: 1000000 items found.
+[2026-02-10T13:44:07.458Z] Successfully fetched subject:management: 1000000 items found.
+[2026-02-10T13:44:07.459Z] Successfully fetched subject:medical: 1000000 items found.
+[2026-02-10T13:44:08.817Z] Synced batch 6/12
+[2026-02-10T13:44:10.367Z] Successfully fetched subject:programming: 1000000 items found.
+[2026-02-10T13:44:10.367Z] Successfully fetched subject:mathematics: 1000000 items found.
+[2026-02-10T13:44:10.467Z] Successfully fetched subject:computer science: 1000000 items found.
+[2026-02-10T13:44:11.886Z] Synced batch 7/12
+[2026-02-10T13:44:13.424Z] Successfully fetched subject:artificial intelligence: 6 items found.
+[2026-02-10T13:44:14.257Z] Successfully fetched subject:data science: 1000000 items found.
+[2026-02-10T13:44:14.359Z] Successfully fetched subject:web development: 1000000 items found.
+[2026-02-10T13:44:15.533Z] Synced batch 8/12
+[2026-02-10T13:44:16.996Z] Successfully fetched subject:picture books: 0 items found.
+[2026-02-10T13:44:17.095Z] Successfully fetched subject:story books: 1 items found.
+[2026-02-10T13:44:17.750Z] Successfully fetched subject:cyber security: 0 items found.
+[2026-02-10T13:44:17.800Z] Synced batch 9/12
+[2026-02-10T13:44:19.452Z] Successfully fetched subject:graphic novels: 1000000 items found.
+[2026-02-10T13:44:20.075Z] Successfully fetched subject:young adult fiction: 1 items found.
+[2026-02-10T13:44:20.184Z] Successfully fetched subject:comics: 1000000 items found.
+[2026-02-10T13:44:21.119Z] Synced batch 10/12
+[2026-02-10T13:44:22.730Z] Successfully fetched subject:hindi literature: 3 items found.
+[2026-02-10T13:44:22.880Z] Successfully fetched subject:regional languages: 1 items found.
+[2026-02-10T13:44:22.943Z] Successfully fetched subject:english literature: 1000000 items found.
+[2026-02-10T13:44:23.562Z] Synced batch 11/12
+[2026-02-10T13:44:25.917Z] Successfully fetched subject:poetry: 1000000 items found.
+[2026-02-10T13:44:25.963Z] Successfully fetched subject:drama: 1000000 items found.
+[2026-02-10T13:44:26.939Z] Synced batch 12/12
+[2026-02-10T13:44:26.939Z] Book synchronization complete. Processed 292 books.
+[2026-02-10T14:02:04.550Z] DEBUG: .env exists: true
+[2026-02-10T14:02:04.549Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-10T14:02:04.551Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-10T14:02:04.551Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-10T14:02:04.551Z] Starting book synchronization (Debug)...
+[2026-02-10T14:02:05.081Z] Successfully fetched subject:Non-Fiction: 0 items found.
+[2026-02-10T14:02:05.146Z] Successfully fetched subject:Fiction: 1000000 items found.
+[2026-02-10T14:02:06.336Z] Successfully fetched subject:Science & Technology: 1000000 items found.
+[2026-02-10T14:02:06.530Z] Synced batch 1/7
+[2026-02-10T14:02:08.125Z] Successfully fetched subject:Self-Help & Personal Development: 1000000 items found.
+[2026-02-10T14:02:08.455Z] Successfully fetched subject:Biography & Autobiography: 1000000 items found.
+[2026-02-10T14:02:08.995Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-10T14:02:09.695Z] Synced batch 2/7
+[2026-02-10T14:02:11.361Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-10T14:02:12.065Z] Successfully fetched subject:Religion & Spirituality: 1000000 items found.
+[2026-02-10T14:02:12.305Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-10T14:02:12.793Z] Synced batch 3/7
+[2026-02-10T14:02:14.343Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-10T14:02:14.383Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-10T14:02:14.694Z] Successfully fetched subject:Literature & Classics: 1000000 items found.
+[2026-02-10T14:02:14.897Z] Synced batch 4/7
+[2026-02-10T14:02:16.433Z] Successfully fetched subject:Young Adult: 1000000 items found.
+[2026-02-10T14:02:16.434Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-10T14:02:16.479Z] Successfully fetched subject:Mystery & Thriller: 1000000 items found.
+[2026-02-10T14:02:16.585Z] Synced batch 5/7
+[2026-02-10T14:02:18.102Z] Successfully fetched subject:Horror: 1000000 items found.
+[2026-02-10T14:02:18.124Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-10T14:02:18.924Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-10T14:02:19.078Z] Synced batch 6/7
+[2026-02-10T14:02:20.963Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-10T14:02:21.792Z] Successfully fetched subject:Travel & Geography: 1000000 items found.
+[2026-02-10T14:02:21.871Z] Synced batch 7/7
+[2026-02-10T14:02:21.871Z] Book synchronization complete. Processed 18 books.
+[2026-02-10T14:08:29.783Z] DEBUG: .env exists: true
+[2026-02-10T14:08:29.781Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-10T14:08:29.784Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-10T14:08:29.784Z] Starting book synchronization (Debug)...
+[2026-02-10T14:08:29.784Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-10T14:08:30.387Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-10T14:08:31.180Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-10T14:08:31.416Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-10T14:08:31.546Z] Synced batch 1/7
+[2026-02-10T14:08:33.104Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-10T14:08:33.853Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-10T14:08:33.894Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-10T14:08:34.021Z] Synced batch 2/7
+[2026-02-10T14:08:35.513Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-10T14:08:35.514Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-10T14:08:35.553Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-10T14:08:35.668Z] Synced batch 3/7
+[2026-02-10T14:08:37.957Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-10T14:08:37.989Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-10T14:08:38.051Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-10T14:08:38.155Z] Synced batch 4/7
+[2026-02-10T14:08:40.134Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-10T14:08:40.462Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-10T14:08:40.486Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-10T14:08:40.638Z] Synced batch 5/7
+[2026-02-10T14:08:42.043Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-10T14:08:42.149Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-10T14:08:42.304Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-10T14:08:42.384Z] Synced batch 6/7
+[2026-02-10T14:08:44.190Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-10T14:08:44.890Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-10T14:08:44.972Z] Synced batch 7/7
+[2026-02-10T14:08:44.972Z] Book synchronization complete. Processed 19 books.
+[2026-02-10T14:14:02.897Z] DEBUG: .env exists: true
+[2026-02-10T14:14:02.896Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-10T14:14:02.897Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-10T14:14:02.897Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-10T14:14:02.898Z] Starting book synchronization (Debug)...
+[2026-02-10T14:14:03.587Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-10T14:14:03.588Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-10T14:14:03.688Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-10T14:14:03.828Z] Synced batch 1/7
+[2026-02-10T14:14:05.343Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-10T14:14:06.171Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-10T14:14:06.251Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-10T14:14:06.406Z] Synced batch 2/7
+[2026-02-10T14:14:07.903Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-10T14:14:07.918Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-10T14:14:07.940Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-10T14:14:08.100Z] Synced batch 3/7
+[2026-02-10T14:14:09.613Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-10T14:14:09.720Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-10T14:14:10.474Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-10T14:14:10.636Z] Synced batch 4/7
+[2026-02-10T14:14:12.166Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-10T14:14:12.210Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-10T14:14:13.024Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-10T14:14:13.152Z] Synced batch 5/7
+[2026-02-10T14:14:14.659Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-10T14:14:15.010Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-10T14:14:15.347Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-10T14:14:15.478Z] Synced batch 6/7
+[2026-02-10T14:14:17.126Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-10T14:14:18.799Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-10T14:14:18.921Z] Synced batch 7/7
+[2026-02-10T14:14:18.921Z] Book synchronization complete. Processed 19 books.
+[2026-02-10T14:15:53.337Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-10T14:15:53.339Z] DEBUG: .env exists: true
+[2026-02-10T14:15:53.339Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-10T14:15:53.341Z] Starting book synchronization (Debug)...
+[2026-02-10T14:15:53.340Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-10T14:15:53.986Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-10T14:15:54.710Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-10T14:15:54.939Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-10T14:15:55.073Z] Synced batch 1/7
+[2026-02-10T14:15:57.360Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-10T14:15:57.390Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-10T14:15:57.513Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-10T14:15:57.667Z] Synced batch 2/7
+[2026-02-10T14:15:59.192Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-10T14:15:59.193Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-10T14:15:59.214Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-10T14:15:59.343Z] Synced batch 3/7
+[2026-02-10T14:16:00.835Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-10T14:16:01.690Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-10T14:16:01.817Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-10T14:16:01.972Z] Synced batch 4/7
+[2026-02-10T14:16:03.518Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-10T14:16:03.520Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-10T14:16:03.520Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-10T14:16:03.657Z] Synced batch 5/7
+[2026-02-10T14:16:05.053Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-10T14:16:05.191Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-10T14:16:05.983Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-10T14:16:06.072Z] Synced batch 6/7
+[2026-02-10T14:16:08.385Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-10T14:16:08.436Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-10T14:16:08.527Z] Synced batch 7/7
+[2026-02-10T14:16:08.528Z] Book synchronization complete. Processed 19 books.
+[2026-02-10T14:18:25.911Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-10T14:18:25.912Z] DEBUG: .env exists: true
+[2026-02-10T14:18:25.913Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-10T14:18:25.914Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-10T14:18:25.914Z] Starting book synchronization (Debug)...
+[2026-02-10T14:18:26.648Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-10T14:18:27.258Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-10T14:18:27.272Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-10T14:18:27.416Z] Synced batch 1/7
+[2026-02-10T14:18:28.884Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-10T14:18:28.924Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-10T14:18:28.956Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-10T14:18:29.069Z] Synced batch 2/7
+[2026-02-10T14:18:30.573Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-10T14:18:30.574Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-10T14:18:30.592Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-10T14:18:30.722Z] Synced batch 3/7
+[2026-02-10T14:18:32.235Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-10T14:18:32.237Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-10T14:18:32.269Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-10T14:18:32.387Z] Synced batch 4/7
+[2026-02-10T14:18:33.918Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-10T14:18:33.925Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-10T14:18:33.960Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-10T14:18:34.078Z] Synced batch 5/7
+[2026-02-10T14:18:35.620Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-10T14:18:35.621Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-10T14:18:36.275Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-10T14:18:36.354Z] Synced batch 6/7
+[2026-02-10T14:18:37.931Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-10T14:18:38.648Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-10T14:18:38.748Z] Book synchronization complete. Processed 19 books.
+[2026-02-10T14:18:38.748Z] Synced batch 7/7
+[2026-02-10T14:21:45.972Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-10T14:21:45.975Z] DEBUG: .env exists: true
+[2026-02-10T14:21:45.976Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-10T14:21:45.976Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-10T14:21:45.976Z] Starting book synchronization (Debug)...
+[2026-02-10T14:21:46.589Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-10T14:21:46.590Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-10T14:21:47.417Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-10T14:21:47.577Z] Synced batch 1/7
+[2026-02-10T14:21:49.089Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-10T14:21:49.112Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-10T14:21:49.920Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-10T14:21:50.042Z] Synced batch 2/7
+[2026-02-10T14:21:51.553Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-10T14:21:51.585Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-10T14:21:51.602Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-10T14:21:51.722Z] Synced batch 3/7
+[2026-02-10T14:21:53.233Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-10T14:21:53.245Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-10T14:21:54.062Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-10T14:21:54.176Z] Synced batch 4/7
+[2026-02-10T14:21:55.670Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-10T14:21:55.726Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-10T14:21:55.750Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-10T14:21:55.866Z] Synced batch 5/7
+[2026-02-10T14:21:57.292Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-10T14:21:57.366Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-10T14:21:57.407Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-10T14:21:57.496Z] Synced batch 6/7
+[2026-02-10T14:21:59.038Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-10T14:21:59.881Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-10T14:21:59.956Z] Synced batch 7/7
+[2026-02-10T14:21:59.956Z] Book synchronization complete. Processed 19 books.
+[2026-02-10T14:26:13.000Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-10T14:26:13.002Z] DEBUG: .env exists: true
+[2026-02-10T14:26:13.004Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-10T14:26:13.004Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-10T14:26:13.004Z] Starting book synchronization (Debug)...
+[2026-02-10T14:26:13.665Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-10T14:26:14.440Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-10T14:26:14.446Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-10T14:26:14.580Z] Synced batch 1/7
+[2026-02-10T14:26:16.116Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-10T14:26:16.139Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-10T14:26:16.877Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-10T14:26:17.007Z] Synced batch 2/7
+[2026-02-10T14:26:18.486Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-10T14:26:18.553Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-10T14:26:19.354Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-10T14:26:19.544Z] Synced batch 3/7
+[2026-02-10T14:26:21.057Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-10T14:26:21.071Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-10T14:26:21.110Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-10T14:26:21.230Z] Synced batch 4/7
+[2026-02-10T14:26:22.756Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-10T14:26:22.757Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-10T14:26:22.789Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-10T14:26:22.906Z] Synced batch 5/7
+[2026-02-10T14:26:24.298Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-10T14:26:24.413Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-10T14:26:25.246Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-10T14:26:25.325Z] Synced batch 6/7
+[2026-02-10T14:26:26.860Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-10T14:26:27.692Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-10T14:26:27.772Z] Book synchronization complete. Processed 19 books.
+[2026-02-10T14:26:27.772Z] Synced batch 7/7
+[2026-02-10T14:26:53.658Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-10T14:26:53.658Z] DEBUG: .env exists: true
+[2026-02-10T14:26:53.659Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-10T14:26:53.659Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-10T14:26:53.659Z] Starting book synchronization (Debug)...
+[2026-02-10T14:26:54.282Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-10T14:26:55.069Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-10T14:26:55.075Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-10T14:26:55.192Z] Synced batch 1/7
+[2026-02-10T14:26:56.727Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-10T14:26:56.728Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-10T14:26:56.744Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-10T14:26:56.859Z] Synced batch 2/7
+[2026-02-10T14:26:58.386Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-10T14:26:58.429Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-10T14:26:59.143Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-10T14:26:59.274Z] Synced batch 3/7
+[2026-02-10T14:27:00.779Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-10T14:27:00.848Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-10T14:27:01.589Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-10T14:27:01.727Z] Synced batch 4/7
+[2026-02-10T14:27:03.259Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-10T14:27:04.045Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-10T14:27:04.096Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-10T14:27:04.210Z] Synced batch 5/7
+[2026-02-10T14:27:05.610Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-10T14:27:05.658Z] Successfully fetched subject:Comics & Graphic Novels: 0 items found.
+[2026-02-10T14:27:06.590Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-10T14:27:06.629Z] Synced batch 6/7
+[2026-02-10T14:27:08.318Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-10T14:27:09.018Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-10T14:27:09.096Z] Synced batch 7/7
+[2026-02-10T14:27:09.096Z] Book synchronization complete. Processed 18 books.
+[2026-02-11T04:47:36.705Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-11T04:47:36.705Z] DEBUG: .env exists: true
+[2026-02-11T04:47:36.706Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-11T04:47:36.706Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-11T04:47:36.706Z] Starting book synchronization (Debug)...
+[2026-02-11T04:47:36.786Z] Failed to fetch subject:Science Fiction: self-signed certificate in certificate chain
+[2026-02-11T04:47:37.575Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-11T04:47:38.467Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-11T04:47:38.468Z] Error during book synchronization: Cannot read properties of undefined (reading 'data')
+[2026-02-11T04:47:45.115Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-11T04:47:45.115Z] DEBUG: .env exists: true
+[2026-02-11T04:47:45.115Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-11T04:47:45.115Z] Starting book synchronization (Debug)...
+[2026-02-11T04:47:45.115Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-11T04:47:45.985Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-11T04:47:46.705Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-11T04:47:46.762Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-11T04:47:46.952Z] Synced batch 1/7
+[2026-02-11T04:47:49.221Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-11T04:47:49.222Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-11T04:47:49.721Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-11T04:47:49.957Z] Synced batch 2/7
+[2026-02-11T04:47:51.990Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-11T04:47:52.098Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-11T04:47:52.485Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-11T04:47:52.638Z] Synced batch 3/7
+[2026-02-11T04:47:54.638Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-11T04:47:54.847Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-11T04:47:55.356Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-11T04:47:55.516Z] Synced batch 4/7
+[2026-02-11T04:47:57.813Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-11T04:47:57.833Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-11T04:47:58.230Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-11T04:47:58.364Z] Synced batch 5/7
+[2026-02-11T04:48:00.181Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-11T04:48:00.490Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-11T04:48:00.490Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-11T04:48:00.621Z] Synced batch 6/7
+[2026-02-11T04:48:03.340Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-11T04:48:03.738Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-11T04:48:03.900Z] Synced batch 7/7
+[2026-02-11T04:48:03.900Z] Book synchronization complete. Processed 19 books.
+[2026-02-12T04:48:59.724Z] DEBUG: .env exists: true
+[2026-02-12T04:48:59.723Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-12T04:48:59.725Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-12T04:48:59.725Z] Starting book synchronization (Debug)...
+[2026-02-12T04:48:59.724Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-12T04:49:00.991Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-12T04:49:00.993Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-12T04:49:01.706Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-12T04:49:01.842Z] Synced batch 1/7
+[2026-02-12T04:49:04.177Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-12T04:49:04.359Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-12T04:49:04.490Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-12T04:49:04.624Z] Synced batch 2/7
+[2026-02-12T04:49:06.509Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-12T04:49:07.022Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-12T04:49:07.536Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-12T04:49:07.670Z] Synced batch 3/7
+[2026-02-12T04:49:10.195Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-12T04:49:10.505Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-12T04:49:11.120Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-12T04:49:11.258Z] Synced batch 4/7
+[2026-02-12T04:49:13.226Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-12T04:49:13.317Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-12T04:49:13.678Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-12T04:49:13.808Z] Synced batch 5/7
+[2026-02-12T04:49:15.565Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-12T04:49:16.031Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-12T04:49:16.347Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-12T04:49:16.458Z] Synced batch 6/7
+[2026-02-12T04:49:19.042Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-12T04:49:19.615Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-12T04:49:19.707Z] Synced batch 7/7
+[2026-02-12T04:49:19.707Z] Book synchronization complete. Processed 19 books.
+[2026-02-13T08:38:22.087Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-13T08:38:22.094Z] DEBUG: .env exists: true
+[2026-02-13T08:38:22.095Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-13T08:38:22.096Z] Starting book synchronization (Debug)...
+[2026-02-13T08:38:22.096Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-13T08:38:22.736Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-13T08:38:22.739Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-13T08:38:22.807Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-13T08:38:23.010Z] Synced batch 1/7
+[2026-02-13T08:38:24.546Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-13T08:38:25.283Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-13T08:38:25.316Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-13T08:38:25.469Z] Synced batch 2/7
+[2026-02-13T08:38:26.969Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-13T08:38:26.970Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-13T08:38:27.776Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-13T08:38:27.925Z] Synced batch 3/7
+[2026-02-13T08:38:29.518Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-13T08:38:29.744Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-13T08:38:29.802Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-13T08:38:29.965Z] Synced batch 4/7
+[2026-02-13T08:38:31.451Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-13T08:38:32.650Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-13T08:38:32.697Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-13T08:38:32.842Z] Synced batch 5/7
+[2026-02-13T08:38:34.314Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-13T08:38:34.390Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-13T08:38:35.328Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-13T08:38:35.424Z] Synced batch 6/7
+[2026-02-13T08:38:37.394Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-13T08:38:37.584Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-13T08:38:37.677Z] Book synchronization complete. Processed 19 books.
+[2026-02-13T08:38:37.677Z] Synced batch 7/7
+[2026-02-15T05:31:21.375Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-15T05:31:21.383Z] DEBUG: .env exists: true
+[2026-02-15T05:31:21.385Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-15T05:31:21.385Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-15T05:31:21.386Z] Starting book synchronization (Debug)...
+[2026-02-15T05:31:22.024Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-15T05:31:22.024Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-15T05:31:22.050Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-15T05:31:22.189Z] Synced batch 1/7
+[2026-02-15T05:31:23.689Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-15T05:31:23.695Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-15T05:31:23.754Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-15T05:31:23.866Z] Synced batch 2/7
+[2026-02-15T05:31:25.360Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-15T05:31:25.363Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-15T05:31:25.388Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-15T05:31:25.521Z] Synced batch 3/7
+[2026-02-15T05:31:27.015Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-15T05:31:27.058Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-15T05:31:27.425Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-15T05:31:27.547Z] Synced batch 4/7
+[2026-02-15T05:31:29.473Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-15T05:31:29.846Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-15T05:31:30.121Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-15T05:31:30.240Z] Synced batch 5/7
+[2026-02-15T05:31:31.635Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-15T05:31:31.735Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-15T05:31:32.594Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-15T05:31:32.671Z] Synced batch 6/7
+[2026-02-15T05:31:34.406Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-15T05:31:34.936Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-15T05:31:35.011Z] Book synchronization complete. Processed 19 books.
+[2026-02-15T05:31:35.011Z] Synced batch 7/7
+[2026-02-15T18:43:10.151Z] DEBUG: .env path: /Users/gouravsinha/PROJECTS/Bookify/backend/.env
+[2026-02-15T18:43:10.155Z] DEBUG: .env exists: true
+[2026-02-15T18:43:10.157Z] DEBUG: .env content preview: PORT=5001
+MONGO_URI=mongodb+srv://sinhagouravv:t8K...
+[2026-02-15T18:43:10.157Z] DEBUG: GOOGLE_API_KEY value: SET
+[2026-02-15T18:43:10.157Z] Starting book synchronization (Debug)...
+[2026-02-15T18:43:10.822Z] Successfully fetched subject:Self-Help: 1000000 items found.
+[2026-02-15T18:43:10.890Z] Successfully fetched subject:Science Fiction: 1000000 items found.
+[2026-02-15T18:43:11.612Z] Successfully fetched subject:Thriller: 1000000 items found.
+[2026-02-15T18:43:11.750Z] Synced batch 1/7
+[2026-02-15T18:43:13.244Z] Successfully fetched subject:Fantasy: 1000000 items found.
+[2026-02-15T18:43:14.090Z] Successfully fetched subject:Classic: 1000000 items found.
+[2026-02-15T18:43:14.094Z] Successfully fetched subject:Biography: 1000000 items found.
+[2026-02-15T18:43:14.207Z] Synced batch 2/7
+[2026-02-15T18:43:15.700Z] Successfully fetched subject:Programming: 1000000 items found.
+[2026-02-15T18:43:16.489Z] Successfully fetched subject:History: 1000000 items found.
+[2026-02-15T18:43:16.506Z] Successfully fetched subject:Psychology: 1000000 items found.
+[2026-02-15T18:43:16.616Z] Synced batch 3/7
+[2026-02-15T18:43:18.912Z] Successfully fetched subject:Romance: 1000000 items found.
+[2026-02-15T18:43:19.155Z] Successfully fetched subject:Philosophy: 1000000 items found.
+[2026-02-15T18:43:19.199Z] Successfully fetched subject:Business & Economics: 1000000 items found.
+[2026-02-15T18:43:19.311Z] Synced batch 4/7
+[2026-02-15T18:43:21.181Z] Successfully fetched subject:Health & Fitness: 1000000 items found.
+[2026-02-15T18:43:21.646Z] Successfully fetched subject:Poetry: 1000000 items found.
+[2026-02-15T18:43:22.035Z] Successfully fetched subject:Travel & Adventure: 1000000 items found.
+[2026-02-15T18:43:22.149Z] Synced batch 5/7
+[2026-02-15T18:43:23.658Z] Successfully fetched subject:Comics & Graphic Novels: 1000000 items found.
+[2026-02-15T18:43:24.460Z] Successfully fetched subject:Children’s Books: 0 items found.
+[2026-02-15T18:43:24.586Z] Successfully fetched subject:Mystery & Detective: 1000000 items found.
+[2026-02-15T18:43:25.027Z] Synced batch 6/7
+[2026-02-15T18:43:26.785Z] Successfully fetched subject:Cooking & Food: 1000000 items found.
+[2026-02-15T18:43:27.292Z] Successfully fetched subject:Art & Photography: 1000000 items found.
+[2026-02-15T18:43:27.369Z] Synced batch 7/7
+[2026-02-15T18:43:27.369Z] Book synchronization complete. Processed 19 books.
